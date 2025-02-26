@@ -302,3 +302,9 @@
 # wap
 # strr=input("Enter A String : ")
 # print((lambda string:string[0:3])(strr))
+
+
+#wap
+to_be_passed=int(input("enter Number To check: "))
+checker=lambda flag:flag%2==0
+print(checker(to_be_passed))
