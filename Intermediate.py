@@ -219,3 +219,86 @@
 # print("y : ",y)
 # print("z : ",z)
 # print("d : ",d)
+
+# wap
+# stringg="Feroz"
+# print(min(stringg))
+
+
+# ord used for unicode values
+# print(ord("A"))
+
+# chr used to make alphabets and symbols from unicodes
+
+# print(chr(97))
+
+
+# wap
+
+# l1=['T','H','I','S', ' ', 'I','S']
+# stt="".join(l1)
+# print(stt)
+
+#wap   # .format()
+# print("{name} is my name , and {age} is my age ".format(name="feroz",age=21))
+
+
+# wap
+# def absolute(num):
+#     if num<0:
+#         return -num
+#     else:
+#         return num
+# print(absolute(-22))
+
+#wap
+
+# def nums(*a):
+#     multed=1
+#     for i in a :
+#         multed*=i
+#     return multed
+
+# print(nums(10,20,2))
+
+
+# # wap
+# def sentance(*sentances):
+#     for sentanc in sentances:
+#         return max(sentances)
+        
+
+# print(sentance("I AM A GIRL","I AM A BOY"))
+
+# wap
+# def foo(x,y):
+#     global a 
+#     a=42  
+#     x,y=y,x
+#     b=33
+#     b=17
+#     c=100
+#     print(a,b,x,y)
+
+# a,b,x,y=1,15,3,4
+# foo(17,4) # 42 17 4 17
+# print(a,b,x,y)
+
+
+# Lambda Fucntions are anonymous functions 
+
+# print((lambda a,b:a+b)(12,22))
+
+# other way
+
+# _fxn=lambda a,b:a+b
+# call=_fxn(10,20)
+# print(call)
+
+# wap 
+# square=lambda a,b:[a**2,b**2]
+# print(square(2,2))
+
+# wap
+# strr=input("Enter A String : ")
+# print((lambda string:string[0:3])(strr))
