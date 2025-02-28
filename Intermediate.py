@@ -310,8 +310,8 @@
 # print(checker(to_be_passed))
 
 #wap
-p1=int(input("enter first param: "))
-p2=int(input("enter second param: "))
+# p1=int(input("enter first param: "))
+# p2=int(input("enter second param: "))
 
-return_gateway=lambda p1,p2:[p1 if p1>p2 else p2]
-print(return_gateway(p1,p2)[0])
+# return_gateway=lambda p1,p2:[p1 if p1>p2 else p2]
+# print(return_gateway(p1,p2)[0])
